@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./starry-night-sky_1048-11828.avif);
+    margin: 0;
+    padding: 0;
+}
+
+.topnav{
+    padding : 45px;
+    background-color: rgb(0, 0, 10);
+}
+.weather{
+    padding-bottom: 20px;
+    margin-top:-13px;
+    float: left;
+    text-decoration: none;
+    color: rgb(151, 210, 239);
+    font-style: bold;
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #010c11;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1 {
+    margin-top: 0;
+    color: aqua;
+}
+
+input[type="text"] {
+    background-color: #010c11;
+    color: aqua;
+    width: 80%;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    position: absolute;
+    left:45.4%;
+    top:73%;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 10px 20px;
+    background-color: #010c11;
+    color: aqua;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: aqua;
+}
+
+button:hover {
+    background-color:  aqua;
+    color: #010c11;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    margin-bottom: 55px;
+    font-size: 18px;
+    color: aqua;
+
+}
+
+.footer{
+    padding: 19px;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+}

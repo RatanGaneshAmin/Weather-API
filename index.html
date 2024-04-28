@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "topnav">
+        <b><a href="./index.html" class = "weather">Weather API</a></b>
+    </div>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <div id="weatherInfo">
+            <p>Description: Weather conditions (e.g., cloudy, sunny).</p>
+            <p>Temperature: Current temperature (°C).</p>
+            <p>Humidity: Air moisture level (%).</p>
+            <p>Wind Speed: Wind strength (m/s).</p>
+        </div>
+        <button onclick="getWeather()">Get Weather</button>
+    </div>
+    <div class ="footer">
+        <b><p class ="foot"> All rights reserved. | Ratan © 2024</p></p></b>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
